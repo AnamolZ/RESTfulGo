@@ -10,6 +10,12 @@ RESTfulGo is a lightweight and easy-to-use RESTful API service developed in Go (
 - Support for JSON input/output
 - Error handling and logging
 
+Requirements
+```bash
+go mod init .
+go get github.com/julienschmidt/httprouter
+```
+
 1. Install dependencies (if any):
    ```bash
    go mod tidy
